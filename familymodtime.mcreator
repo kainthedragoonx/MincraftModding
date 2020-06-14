@@ -5,7 +5,7 @@
       "name": "Areana",
       "type": "biome",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "areana"
@@ -14,7 +14,7 @@
       "name": "Flamebornsword",
       "type": "tool",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "flamebornsword"
@@ -23,7 +23,7 @@
       "name": "DaddysBlock",
       "type": "block",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "daddys_block"
