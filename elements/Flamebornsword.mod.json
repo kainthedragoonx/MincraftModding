@@ -1,0 +1,26 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "flambornsword",
+    "customModelName": "Normal",
+    "name": "Flamebornsword",
+    "specialInfo": [
+      "made of fire burning foes"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 10.0,
+    "attackSpeed": 3.0,
+    "enchantability": 22,
+    "damageVsEntity": 15.0,
+    "usageCount": 300,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": []
+  }
+}
