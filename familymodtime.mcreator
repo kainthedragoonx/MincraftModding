@@ -27,12 +27,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "daddys_block"
+    },
+    {
+      "name": "Owl",
+      "type": "mob",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "owl"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "entity.familymodtime.owl": "snowy owl",
+      "item.familymodtime.owl": "snowy owl Spawn Egg"
+    }
   },
   "workspaceSettings": {
     "modid": "familymodtime",
