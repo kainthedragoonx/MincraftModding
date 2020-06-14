@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "familymodtime:blocks/daddyblock",
+    "up": "familymodtime:blocks/daddyblock",
+    "north": "familymodtime:blocks/daddyblock",
+    "east": "familymodtime:blocks/daddyblock",
+    "south": "familymodtime:blocks/daddyblock",
+    "west": "familymodtime:blocks/daddyblock",
+    "particle": "familymodtime:blocks/daddyblock"
+  }
+}

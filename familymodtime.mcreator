@@ -2,6 +2,15 @@
   "id_map": {},
   "mod_elements": [
     {
+      "name": "Areana",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "areana"
+    },
+    {
       "name": "Flamebornsword",
       "type": "tool",
       "sortid": 1,
@@ -11,21 +20,19 @@
       "registry_name": "flamebornsword"
     },
     {
-      "name": "Areana",
-      "type": "biome",
-      "sortid": 2,
+      "name": "DaddysBlock",
+      "type": "block",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "areana"
+      "registry_name": "daddys_block"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.familymodtime.flamebornsword": "Flamebornsword"
-    }
+    "en_us": {}
   },
   "workspaceSettings": {
     "modid": "familymodtime",
