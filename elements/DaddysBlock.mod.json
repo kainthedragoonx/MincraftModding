@@ -79,14 +79,20 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "jungle"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 10,
+    "frequencyPerChunks": 5,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
