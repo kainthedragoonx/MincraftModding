@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "familymodtime:blocks/bluefireplant",
+    "particle": "familymodtime:blocks/bluefireplant"
+  }
+}

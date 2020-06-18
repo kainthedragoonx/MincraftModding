@@ -2,29 +2,29 @@
   "_fv": 8,
   "_type": "mob",
   "definition": {
-    "mobName": "snowy owl",
+    "mobName": "Unicorn",
     "mobLabel": "",
-    "mobModelName": "Biped",
-    "mobModelTexture": "owl.png",
-    "mobModelGlowTexture": "",
-    "modelWidth": 0.6,
-    "modelHeight": 1.8,
+    "mobModelName": "Cow",
+    "mobModelTexture": "purple.png",
+    "mobModelGlowTexture": "purple.png",
+    "modelWidth": 0.9,
+    "modelHeight": 1.4,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -1,
+      "value": -10092442,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -3355444,
+      "value": -10092442,
       "falpha": 0.0
     },
     "creativeTab": {
       "value": "MISC"
     },
-    "isBoss": false,
-    "bossBarColor": "PINK",
+    "isBoss": true,
+    "bossBarColor": "BLUE",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
       "value": ""
@@ -46,37 +46,37 @@
     },
     "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 6,
-    "movementSpeed": 0.6,
-    "armorBaseValue": 1.0,
+    "attackStrength": 3,
+    "movementSpeed": 0.3,
+    "armorBaseValue": 0.0,
     "trackingRange": 64,
-    "health": 25,
-    "xpAmount": 10,
+    "health": 2000,
+    "xpAmount": 0,
     "waterMob": false,
-    "flyingMob": true,
+    "flyingMob": false,
     "disableCollisions": false,
     "ridable": true,
     "canControlForward": true,
     "canControlStrafe": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "immuneToArrows": false,
     "immuneToFallDamage": true,
-    "immuneToCactus": false,
+    "immuneToCactus": true,
     "immuneToDrowning": false,
     "immuneToLightning": false,
-    "immuneToPotions": true,
+    "immuneToPotions": false,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:Unicornhorn"
     },
     "livingSound": {
-      "value": "entity.chicken.ambient"
+      "value": ""
     },
     "hurtSound": {
-      "value": "entity.chicken.hurt"
+      "value": "entity.generic.hurt"
     },
     "deathSound": {
-      "value": "entity.chicken.death"
+      "value": "entity.generic.death"
     },
     "spawnParticles": false,
     "particleToSpawn": {
@@ -98,16 +98,25 @@
     "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 10,
+    "spawningProbability": 20,
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 9,
+    "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
+      {
+        "value": "plains"
+      },
       {
         "value": "mountains"
       },
       {
-        "value": "taiga"
+        "value": "desert"
+      },
+      {
+        "value": "swamp"
+      },
+      {
+        "value": "CUSTOM:Mythicalforest"
       }
     ],
     "spawnInDungeons": false

@@ -21,44 +21,44 @@ import net.mcreator.familymodtime.FamilymodtimeModElements;
 import java.util.List;
 
 @FamilymodtimeModElements.ModElement.Tag
-public class FlamebornswordItem extends FamilymodtimeModElements.ModElement {
-	@ObjectHolder("familymodtime:flamebornsword")
+public class UnicornswordItem extends FamilymodtimeModElements.ModElement {
+	@ObjectHolder("familymodtime:unicornsword")
 	public static final Item block = null;
-	public FlamebornswordItem(FamilymodtimeModElements instance) {
-		super(instance, 1);
+	public UnicornswordItem(FamilymodtimeModElements instance) {
+		super(instance, 24);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
-				return 300;
+				return 100;
 			}
 
 			public float getEfficiency() {
-				return 10f;
+				return 4f;
 			}
 
 			public float getAttackDamage() {
-				return 13f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
-				return 3;
+				return 1;
 			}
 
 			public int getEnchantability() {
-				return 22;
+				return 28;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -1f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 				super.addInformation(itemstack, world, list, flag);
-				list.add(new StringTextComponent("made of fire burning foes"));
+				list.add(new StringTextComponent("unicorn fun!"));
 			}
 
 			@Override
@@ -66,6 +66,6 @@ public class FlamebornswordItem extends FamilymodtimeModElements.ModElement {
 			public boolean hasEffect(ItemStack itemstack) {
 				return true;
 			}
-		}.setRegistryName("flamebornsword"));
+		}.setRegistryName("unicornsword"));
 	}
 }

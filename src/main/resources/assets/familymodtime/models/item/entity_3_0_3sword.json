@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "familymodtime:items/entity303sword"
+  }
+}

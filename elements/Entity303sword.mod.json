@@ -1,0 +1,24 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "entity303sword",
+    "customModelName": "Normal",
+    "name": "Entity 3 0 3sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 10.0,
+    "attackSpeed": 4.0,
+    "enchantability": 22,
+    "damageVsEntity": 9.0,
+    "usageCount": 101,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

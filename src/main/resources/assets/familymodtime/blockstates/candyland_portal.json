@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "familymodtime:block/candyland_portal_ew"
+    },
+    "axis=x": {
+      "model": "familymodtime:block/candyland_portal_ns"
+    }
+  }
+}

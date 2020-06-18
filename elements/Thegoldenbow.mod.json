@@ -1,0 +1,36 @@
+{
+  "_fv": 8,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "goldenbow",
+    "customModelName": "Normal",
+    "name": "Thegoldenbow",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Venusflytrap"
+    },
+    "shootConstantly": false,
+    "usageCount": 1000,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": true,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 2.8000000000000003,
+    "bulletPower": 1.2000000000000002,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 15,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Venusflytrap"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

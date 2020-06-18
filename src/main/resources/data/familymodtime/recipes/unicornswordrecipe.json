@@ -1,0 +1,27 @@
+{
+  "group": "familymodtime",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "familymodtime:unicornhorn"
+    },
+    "3": {
+      "item": "familymodtime:unicornhorn"
+    },
+    "5": {
+      "item": "familymodtime:unicornhorn"
+    },
+    "7": {
+      "item": "familymodtime:unicornhorn"
+    }
+  },
+  "result": {
+    "item": "familymodtime:unicornsword",
+    "count": 1
+  }
+}

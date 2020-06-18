@@ -1,0 +1,26 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "candysword",
+    "customModelName": "Normal",
+    "name": "Candysword",
+    "specialInfo": [
+      "ccccaaaannnndddyyy!!!!!!!!!"
+    ],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 10.0,
+    "attackSpeed": 4.0,
+    "enchantability": 22,
+    "damageVsEntity": 15.0,
+    "usageCount": 500,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": []
+  }
+}

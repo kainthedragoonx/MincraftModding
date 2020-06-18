@@ -1,0 +1,42 @@
+{
+  "group": "goldenbowrecipe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "familymodtime:venusflytrap"
+    },
+    "1": {
+      "item": "familymodtime:venusflytrap"
+    },
+    "2": {
+      "item": "familymodtime:venusflytrap"
+    },
+    "3": {
+      "item": "familymodtime:venusflytrap"
+    },
+    "4": {
+      "item": "familymodtime:venusflytrap"
+    },
+    "5": {
+      "item": "familymodtime:venusflytrap"
+    },
+    "6": {
+      "item": "familymodtime:venusflytrap"
+    },
+    "7": {
+      "item": "familymodtime:venusflytrap"
+    },
+    "8": {
+      "item": "familymodtime:venusflytrap"
+    }
+  },
+  "result": {
+    "item": "familymodtime:soulfire",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "familymodtime:blocks/gingerbreadblock",
+    "up": "familymodtime:blocks/gingerbreadblock",
+    "north": "familymodtime:blocks/gingerbreadblock",
+    "east": "familymodtime:blocks/gingerbreadblock",
+    "south": "familymodtime:blocks/gingerbreadblock",
+    "west": "familymodtime:blocks/gingerbreadblock",
+    "particle": "familymodtime:blocks/gingerbreadblock"
+  }
+}

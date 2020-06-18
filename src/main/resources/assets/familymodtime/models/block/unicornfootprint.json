@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "familymodtime:blocks/dirt",
+    "up": "familymodtime:blocks/unicornfootprint",
+    "north": "familymodtime:blocks/dirt",
+    "east": "familymodtime:blocks/dirt",
+    "south": "familymodtime:blocks/dirt",
+    "west": "familymodtime:blocks/dirt",
+    "particle": "familymodtime:blocks/dirt"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "group": "dimondsword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "familymodtime:soulfire"
+    },
+    "1": {
+      "item": "minecraft:gold_block"
+    },
+    "3": {
+      "item": "familymodtime:venusflytrap"
+    },
+    "4": {
+      "item": "familymodtime:soulfire"
+    },
+    "5": {
+      "item": "minecraft:gold_block"
+    },
+    "6": {
+      "item": "familymodtime:soulfire"
+    },
+    "7": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "familymodtime:thegoldenbow",
+    "count": 1
+  }
+}
