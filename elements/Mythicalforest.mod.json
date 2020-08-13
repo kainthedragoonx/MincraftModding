@@ -61,9 +61,6 @@
     "biomeDictionaryTypes": [],
     "spawnList": [
       {
-        "value": "EntityGiantZombie"
-      },
-      {
         "value": "EntityDragon"
       }
     ]

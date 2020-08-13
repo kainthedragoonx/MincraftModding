@@ -79,7 +79,6 @@ public class MythicalforestBiome extends FamilymodtimeModElements.ModElement {
 							new SimpleBlockStateProvider(Blocks.CARVED_PUMPKIN.getDefaultState()))).baseHeight(9)
 									.setSapling((net.minecraftforge.common.IPlantable) Blocks.JUNGLE_SAPLING).build())
 					.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(3, 0.1F, 1))));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.GIANT, 15, 1, 5));
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.ENDER_DRAGON, 15, 1, 5));
 		}
 

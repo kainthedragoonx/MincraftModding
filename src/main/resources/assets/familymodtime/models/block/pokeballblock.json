@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "familymodtime:blocks/pokeballblock",
+    "up": "familymodtime:blocks/pokeballblock",
+    "north": "familymodtime:blocks/pokeballblock",
+    "east": "familymodtime:blocks/pokeballblock",
+    "south": "familymodtime:blocks/pokeballblock",
+    "west": "familymodtime:blocks/pokeballblock",
+    "particle": "familymodtime:blocks/pokeballblock"
+  }
+}
